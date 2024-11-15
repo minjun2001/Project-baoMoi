@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* common */
+.content {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* commit */
+/* .content {
+    width: 1500px;
+    max-width: calc(100% - 420px);
+    margin-left: auto;
+    margin-right: auto;
+} */
+a {
+    text-decoration: none;
+}
+
+/* hearder */
+.header {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar .logo {
+    width: 125px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 125px 55px;
+}
+
+.navbar .search {
+    width: calc(100% - 500px);
+    height: 35px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    margin-left: 70px;
+}
+
+.navbar .action {
+    display: flex;
+    margin-left: auto;
+    font-size: 1.8rem;
+}
+
+.navbar .fa-user-plus {
+    margin-left: 10px;
+}
+
+.nav-bottom {
+    width: 970px;
+    height: 40px;
+    position: relative;
+    background-color: #17a2b8;
+}
+ 
+.nav-bottom .item {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav-bottom a {
+    font-size: 2rem;
+    position: absolute;
+    border-left: 1px solid #fff;
+    padding: 9px 13px;
+    color: #fff;
+}
+.nav-bottom a:hover {
+    background-color: #2b94a5;
+}
+
+.hastag {
+    display: flex;
+    justify-content: center;
+}
+
+/* body */
+.body {
+    margin-top: 15px;
+}
+
+.content .body-content img {
+    width: 630px;
+    height: 340px;
+}
+
+.content .body-content h1 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    word-break: break-word;
+    width: 630px;
+}
+
+.list {
+    width: 630px;
+    height: 250px;
+}
+
+.content .list {
+    display: flex;
+}
+
+.list .item {
+    flex: 1;
+}
+
+.item .thumb {
+    width: 200px;
+    height: 130px;
+}
+
+.body {
+    display: flex;
+}
+
+.body-right .item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.body-right .item .thumb {
+    width: 60px;
+    height: 60px;
+}
+
